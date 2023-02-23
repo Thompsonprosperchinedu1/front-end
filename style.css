@@ -1,0 +1,458 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,500;1,700&display=swap');
+
+  .bg{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+  /* ---nav-bar----- */
+
+  #nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .navbar-brand img{
+    height: 50px;
+    padding-left: 30px;
+  }
+  .navbar-nav li{
+    padding: 0 10px;
+  }
+
+    #nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .navbar-brand img {
+      height: 50px;
+      padding-left: 30px;
+    }
+
+    .navbar-nav li {
+      padding: 0 10px;
+    }
+
+    .navbar-nav li a {
+      float: right;
+      text-align: left;
+    }
+
+    #nav-bar ul li a:hover {
+      color: blue !important;
+    }
+
+    .navbar {
+      background: rgb(17, 14, 14);
+    }
+
+    .navbar-toggler {
+      border: none !important;
+    }
+
+    .nav-links {
+      color: #0c0909 !important;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    #slider {
+      width: 100%;
+    }
+    .fa-solid.fa-desktop{
+      color: white;
+      font-size: 3em;
+      margin-bottom: 3px;
+    }
+
+    .carousel-caption {
+      top: 50%;
+      transform: translateY(-50%);
+      bottom: initial !important;
+    }
+
+    .carousel-caption h5 {
+      color: white;
+      font-size: 45px;
+    }
+
+    .carousel-caption h5:hover {
+      background: black;
+      letter-spacing: 10px;
+    }
+
+    #about {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      color: #555;
+    }
+    
+   
+
+    #about .btn {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .about-content {
+      padding-top: 20px;
+    }
+
+    .skills-bar {
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .progress-bar {
+      border-radius: 16px;
+    }
+
+    .progress {
+      border-radius: 16px !important;
+      margin-bottom: 20px;
+    }
+
+    #services {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/services.jpg);
+      background-size: cover;
+      background-position: center;
+      color: blue !important;
+      background-attachment: fixed;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+    }
+
+    #services h1 {
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    #services h1::after {
+      content: '';
+      background: #efefef;
+      display: block;
+      height: 3px;
+      width: 170px;
+      margin: 20px auto 5px;
+    }
+
+    .services {
+      margin-top: 40px;
+    }
+
+    #services p {
+      font-size: 14px;
+      margin-top: 20px;
+      color: #ccc;
+
+    }
+
+    .services .col-md-3:hover {
+      background: #007bff;
+      cursor: pointer;
+      transition: 0.7s;
+    }
+
+    #team {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      color: #555;
+      padding-bottom: 10px;
+    }
+
+    h1::after {
+      content: '';
+      background: #007bff;
+      display: block;
+      height: 3px;
+      width: 150px;
+      margin: 20px auto 5px;
+    }
+
+    .profile-pic {
+      margin-top: 25px;
+      
+    }
+
+    .profile-pic .img-box {
+      opacity: 1;
+      display: block;
+      position: relative;
+    }
+
+    .profile-pic .img-box img {
+      filter: grayscale(1);
+    }
+
+    .profile-pic .img-box img:hover {
+      filter: grayscale(0);
+      cursor: pointer;
+    }
+
+    .profile-pic h2 {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 15px;
+      color: #007bff !important;
+    }
+
+    .profile-pic h3 {
+      font-size: 15pxpx;
+      font-weight: bold;
+      margin-top: 15px;
+      color: #270943 !important;
+    }
+
+    #team .fa {
+      height: 25px;
+      width: 25px;
+      color: #270943 !important;
+      background: white;
+      padding: 4px;
+      border-radius: 50%;
+
+    }
+
+    .img-box ul {
+      padding: 15px 0;
+      position: absolute;
+      z-index: 2;
+      bottom: 0%;
+      left: 0%;
+      transform: translate3d(-50%);
+      opacity: 0;
+    }
+
+    .img-box ul li {
+      padding: 5px;
+      display: inline-block;
+    }
+
+    .img-box:hover ul {
+      opacity: 1;
+    }
+
+    .img-box ul,
+    .img-box ul li {
+      transition: 0.5s;
+    }
+
+    /* ---promo---- */
+    #promo {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/promo.jpg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      background-attachment: fixed;
+      text-align: center;
+      padding: 100px;
+      font-size: 38px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #price {
+      padding: 40px 0;
+      background: #efefef;
+    }
+
+    h2::after {
+      content: '';
+      background: #007bff;
+      display: block;
+      height: 3px;
+      width: 150px;
+      margin: 20px auto 5px;
+    }
+
+    .single-price {
+      margin: 10px auto;
+      display: inline;
+      float: left;
+      width: 100%;
+      background-color: white;
+      transition: 0.5s;
+    }
+
+    .single-price:hover {
+      box-shadow: 0 2px 20px #333;
+    }
+
+    .price-head {
+      background-color: #2196f3;
+      display: inline;
+      float: left;
+      padding: 10px 5px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .price-head h3 {
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      padding: 5px;
+      text-transform: uppercase;
+
+    }
+
+    .price-head p {
+      font-size: 25px;
+      color: #CCC;
+      font-weight: bold;
+      line-height: 30px;
+    }
+
+    #price span {
+      font-size: 15px;
+    }
+
+    .price-content {
+      display: inline;
+      float: left;
+      width: 100%;
+      padding: 0 15px;
+    }
+
+    .price-content ul li {
+      border-bottom: 1px solid gainsboro;
+      padding: 15px 10px;
+      list-style: none;
+
+    }
+
+    ul li:last-child {
+      border: none;
+    }
+
+    .fa-circle-check {
+      color: green;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    .fa-circle-xmark {
+      color: red;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    .price-button {
+      display: inline;
+      float: left;
+      padding: 15px 15px 30px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .buy-btn {
+      background-color: #2196f3;
+      border-radius: 3px;
+      display: inline-block;
+      font-size: 18px;
+      padding: 15px 50px;
+      transition: 0.5s;
+    }
+
+    .buy-btn:hover {
+      border-color: 1px solid white;
+      background-color: #270943;
+    }
+
+    a {
+      text-decoration: none !important;
+      color: white;
+    }
+
+    #testimonials {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    #testimonials .row {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .col-md-4 {
+      margin: 40px auto;
+    }
+
+    .profile {
+      padding: 70px 10px 10px;
+      background-color: #86a7c2;
+      min-height: 500px!important;
+    }
+
+    .user {
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+    }
+
+    .profile img {
+      top: -120px;
+      position: relative;
+      left: calc(50%-60px);
+      border: 1px rgb(239, 16, 16);
+    }
+
+    .profile h3 {
+      font-size: 20px;
+      margin-top: 15px;
+      color: #007bff;
+    }
+
+    #testimonials span {
+      font-size: 12px;
+      color: #0c0909;
+    }
+
+    blockquote {
+      font-size: 16px;
+      line-height: 30px;
+    }
+
+    .profile:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: 0.5s;
+    }
+
+    #contact {
+      background: #2196f3;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      color: #fff;
+    }
+
+    .contact-form {
+      padding: 15px;
+    }
+
+    .form-control {
+      border-radius: 0 !important;
+      border: none !important;
+    }
+
+    ::placeholder {
+      color: #007bff;
+
+    }
+
+    .follow {
+
+      padding: 10px;
+      margin: 15px;
+    }
