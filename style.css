@@ -456,3 +456,8 @@
       padding: 10px;
       margin: 15px;
     }
+    #footer{
+      background: #333;
+      color: #CCC;
+      padding: 12px;
+    }
